@@ -3,15 +3,15 @@ class Renku < Formula
 
   desc "Python SDK and CLI for the Renku platform"
   homepage "https://github.com/swissdatasciencecenter/renku-python"
-  url "https://files.pythonhosted.org/packages/ff/89/2ff71e67f345536248b048b62074cb48f4a0f6799c1c6e96a6b2cc9103a6/renku-0.7.1.tar.gz"
-  sha256 "5fe575f02328024786838abeee7aaa974d60d4c46bf9f026e2e7b49324563e3e"
+  url "https://github.com/SwissDataScienceCenter/renku-python/archive/v0.9.0.tar.gz"
+  sha256 "5139a8cd36ee14fe1b2f51e63beaa342ec6f0dbb69d62dfd1ee68d118c9b24a4"
   version_scheme 1
   head "https://github.com/swissdatasciencecenter/renku-python"
 
   bottle do
-    root_url "https://github.com/SwissDataScienceCenter/renku-python/releases/download/v0.7.1"
+    root_url "https://github.com/SwissDataScienceCenter/renku-python/releases/download/v0.9.0"
     cellar :any
-    sha256 "e2b5e3e4900ee5dcc8393fc999e556c738c8088d44ced3d9d1ad8ddc2baf26b7" => :mojave
+    sha256 "32a1728f5b2eae1c2a7188ad37ef16527c581e24" => :mojave
   end
 
   depends_on "git-lfs"
